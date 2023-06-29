@@ -1,0 +1,30 @@
+.webHeader, .webFooter, .hero {
+    background-color: #1F2937;
+}
+
+.webHeader {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.heroSecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.call {
+    background-color: #3882F6;
+}
