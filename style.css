@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.headerLink {
+.headerLink, .footerText {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -22,7 +22,6 @@
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 8px 35px;
     justify-content: center;
 }
 
@@ -94,4 +93,12 @@
 
 .callButton {
     border-color: white;
+}
+
+.hero, .information, .quote, .call, .webFooter {
+    padding: 36px 300px;
+}
+
+.webFooter {
+    color: white;
 }
