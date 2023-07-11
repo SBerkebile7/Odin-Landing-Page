@@ -58,9 +58,21 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: light italic;
+}
+
+.quoteText {
     color: #1F2937;
+    text-align: left;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.quoteSignature {
+    color: #1F2937;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
 }
 
 .call {
