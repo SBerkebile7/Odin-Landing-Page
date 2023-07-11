@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .webHeader, .webFooter, .hero {
     background-color: #1F2937;
 }
@@ -33,10 +37,13 @@
 
 .leftHero {
     margin: 48px 0px;
+    margin-right: 16px;
 }
 
 .rightHero {
 
+    margin: 48px 0px;
+    margin-left: 16px;
 }
 
 .heroSecondary {
@@ -63,7 +70,7 @@
     align-items: center;
     border-radius: 15px;
     padding: 20px;
-    margin: 0px auto;
+    margin: 50px auto;
     width: 500px;
     height: auto;
 }
@@ -101,4 +108,5 @@
 
 .webFooter {
     color: white;
+    text-align: center;
 }
