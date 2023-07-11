@@ -5,17 +5,49 @@
 .webHeader {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLink {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px 8px;
 }
 
 .hero {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 35px;
+    justify-content: center;
+}
+
+.heroContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHero {
+    margin: 48px 0px;
+}
+
+.rightHero {
+
 }
 
 .heroSecondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.heroImg {
+    width: 400px;
+    height: 150px;
 }
 
 .quote {
@@ -27,4 +59,39 @@
 
 .call {
     background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0px auto;
+    width: 500px;
+    height: auto;
+}
+
+.callPrime {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.callSecond {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signUpButton, .callButton {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callButton {
+    border-color: white;
 }
